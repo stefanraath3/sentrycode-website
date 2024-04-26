@@ -15,10 +15,10 @@ const Hero = () => {
                   Empowering Defense and Security Organizations
                 </h1>
                 <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
-                  SentryCode builds software that empowers defense and security
-                  organizations to unify data insights, streamline operations,
-                  and make complex decisions quickly, keeping them ahead in a
-                  rapidly evolving global landscape.
+                  SentryCode builds software systems that empowers defense and
+                  security organizations to unify data insights, streamline
+                  operations, and make complex decisions quickly, keeping them
+                  ahead in a rapidly evolving global landscape.
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
