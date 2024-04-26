@@ -43,7 +43,7 @@ const Header = () => {
       <header
         className={`header left-0 top-0 z-40 flex w-full items-center ${
           sticky
-            ? "fixed z-[9999] bg-white !bg-opacity-80 shadow-sticky backdrop-blur-sm transition dark:bg-gray-dark dark:shadow-sticky-dark"
+            ? "fixed z-[9999] bg-white shadow-sticky backdrop-blur-sm transition dark:bg-black dark:shadow-sticky-dark"
             : "absolute bg-transparent"
         }`}
       >
@@ -57,14 +57,14 @@ const Header = () => {
                 } `}
               >
                 <Image
-                  src="/images/logo/logo-2.svg"
+                  src="/images/logo/sentrycode-logo-2.svg"
                   alt="logo"
                   width={140}
                   height={30}
                   className="w-full dark:hidden"
                 />
                 <Image
-                  src="/images/logo/logo.svg"
+                  src="/images/logo/sentrycode-logo.svg"
                   alt="logo"
                   width={140}
                   height={30}
@@ -112,8 +112,8 @@ const Header = () => {
                             href={menuItem.path}
                             className={`flex py-2 text-base lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 ${
                               usePathName === menuItem.path
-                                ? "text-primary dark:text-white"
-                                : "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
+                                ? "text-dark dark:text-white"
+                                : "text-dark hover:text-black dark:text-white/70 dark:hover:text-white"
                             }`}
                           >
                             {menuItem.title}
@@ -145,7 +145,7 @@ const Header = () => {
                                 <Link
                                   href={submenuItem.path}
                                   key={index}
-                                  className="block rounded py-2.5 text-sm text-dark hover:text-primary dark:text-white/70 dark:hover:text-white lg:px-3"
+                                  className="block rounded py-2.5 text-sm text-dark dark:text-white/70 dark:hover:text-white lg:px-3"
                                 >
                                   {submenuItem.title}
                                 </Link>
@@ -160,14 +160,14 @@ const Header = () => {
               </div>
               <div className="flex items-center justify-end pr-16 lg:pr-0">
                 <Link
-                  href="/signin"
+                  href="#"
                   className="hidden px-7 py-3 text-base font-medium text-dark hover:opacity-70 dark:text-white md:block"
                 >
                   Sign In
                 </Link>
                 <Link
-                  href="/contact"
-                  className="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-black hover:bg-black hover:text-white"
+                  href="#"
+                  className="ease-in-up hidden rounded-sm bg-black px-8 py-3 text-base font-medium text-white hover:border hover:bg-white hover:text-black dark:bg-white dark:text-black dark:hover:border-none dark:hover:bg-black dark:hover:text-white md:block md:px-9 lg:px-6 xl:px-9"
                 >
                   Contact Us
                 </Link>

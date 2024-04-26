@@ -5,7 +5,7 @@ const Hero = () => {
     <>
       <section
         id="home"
-        className="relative z-10 overflow-hidden bg-white pb-16 pt-[120px] dark:bg-gray-dark md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
+        className="relative z-10 overflow-hidden bg-white pb-16 pt-[120px] dark:bg-black md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
       >
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
@@ -22,14 +22,14 @@ const Hero = () => {
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
-                    href="https://nextjstemplates.com/templates/saas-starter-startup"
+                    href="#"
                     className="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-black hover:bg-black hover:text-white"
                   >
                     Request a Demo
                   </Link>
                   <Link
-                    href="/contact"
-                    className="inline-block rounded-sm bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
+                    href="#"
+                    className="inline-block rounded-sm bg-black px-8 py-4 text-base font-semibold text-white hover:border hover:bg-white hover:text-black dark:bg-white/10 dark:text-white dark:hover:border-none dark:hover:bg-white/5"
                   >
                     Contact Sales
                   </Link>
@@ -38,7 +38,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100">
+        {/* <div className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100">
           <svg
             width="450"
             height="556"
@@ -278,7 +278,7 @@ const Hero = () => {
               </radialGradient>
             </defs>
           </svg>
-        </div>
+        </div> */}
       </section>
     </>
   );
