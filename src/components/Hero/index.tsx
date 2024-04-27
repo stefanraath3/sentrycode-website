@@ -15,7 +15,7 @@ const Hero = () => {
                   Empowering Global Defense and Strategic Security
                 </h1>
                 <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
-                  SentryCode builds software systems that empowers defense and
+                  SentryCode builds software systems that empower defense and
                   security organizations to unify data insights, streamline
                   operations, and make complex decisions quickly, keeping them
                   ahead in a rapidly evolving global landscape.
