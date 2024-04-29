@@ -1,21 +1,21 @@
 import AboutSectionOne from "@/components/About/AboutSectionOne";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo";
-import Breadcrumb from "@/components/Common/Breadcrumb";
+import ImageBanner from "@/components/Common/ImageBanner"; // You'll need to create this component
 
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Page | Free Next.js Template for Startup and SaaS",
-  description: "This is About Page for Startup Nextjs Template",
+  title: "Our Mission | SentryCode",
+  description: "SentryCode's commitment to securing a world empowered by data.",
   // other metadata
 };
 
 const AboutPage = () => {
   return (
     <>
-      <Breadcrumb
-        pageName="About Page"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+      <ImageBanner
+        tagline="Securing a world empowered by data."
+        backgroundImgSrc="/images/about/image-header.jpg"
       />
       <AboutSectionOne />
       <AboutSectionTwo />
