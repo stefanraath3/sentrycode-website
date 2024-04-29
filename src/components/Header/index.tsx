@@ -14,18 +14,14 @@ const Header = () => {
   };
 
   // Sticky Navbar
-  const [sticky, setSticky] = useState(false);
-  const handleStickyNavbar = () => {
-    if (window.scrollY >= 80) {
-      setSticky(true);
-    } else {
-      setSticky(false);
-    }
-  };
-  useEffect(() => {
-    window.addEventListener("scroll", handleStickyNavbar);
-  });
+  const [sticky, setSticky] = useState(true); // This ensures the navbar is always sticky
 
+  useEffect(() => {
+    // No need to add an event listener since the navbar is always sticky
+    return () => {
+      // Clean up if you had added any listeners or other effects
+    };
+  }, []);
   // submenu handler
   const [openIndex, setOpenIndex] = useState(-1);
   const handleSubmenu = (index) => {
@@ -112,7 +108,7 @@ const Header = () => {
                             href={menuItem.path}
                             className={`flex py-2 text-base lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 ${
                               usePathName === menuItem.path
-                                ? "text-dark dark:text-white"
+                                ? "text-dark underline dark:text-white"
                                 : "text-dark hover:text-black dark:text-white/70 dark:hover:text-white"
                             }`}
                           >
