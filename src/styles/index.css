@@ -31,3 +31,12 @@
     @apply opacity-100;
   }
 }
+::selection {
+  background-color: #0047ab; /* Dark blue color */
+  color: white; /* Text color when highlighted */
+}
+
+::-moz-selection {
+  background-color: #0047ab; /* Dark blue color for Firefox */
+  color: white;
+}
