@@ -22,16 +22,16 @@ const Hero = () => {
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
-                    href="#"
+                    href="/contact"
                     className="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-black hover:bg-black hover:text-white"
                   >
                     Request a Demo
                   </Link>
                   <Link
-                    href="#"
+                    href="/about"
                     className="inline-block rounded-sm bg-black px-8 py-4 text-base font-semibold text-white hover:border hover:bg-white hover:text-black dark:bg-white/10 dark:text-white dark:hover:border-none dark:hover:bg-white/5"
                   >
-                    Contact Sales
+                    Learn More
                   </Link>
                 </div>
               </div>

@@ -1,24 +1,22 @@
-import Breadcrumb from "@/components/Common/Breadcrumb";
-import Contact from "@/components/Contact";
-
+import ContactForm from "@/components/ContactForm";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact Page | Free Next.js Template for Startup and SaaS",
-  description: "This is Contact Page for Startup Nextjs Template",
-  // other metadata
+  title: "Contact SentryCode | Secure Intelligence Solutions",
+  description:
+    "Get in touch with SentryCode for tailored security and intelligence solutions.",
 };
 
 const ContactPage = () => {
   return (
-    <>
-      <Breadcrumb
-        pageName="Contact Page"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
-      />
-
-      <Contact />
-    </>
+    <div className="container mx-auto max-w-3xl px-4 py-24">
+      <h1 className="mb-8 text-3xl font-bold text-black dark:text-white">
+        Interested in solving your problems with SentryCode?
+      </h1>
+      <div className="rounded-lg bg-black p-8 shadow-lg">
+        <ContactForm />
+      </div>
+    </div>
   );
 };
 

@@ -13,16 +13,16 @@ const menuData: Menu[] = [
     path: "/about",
     newTab: false,
   },
-  {
-    id: 33,
-    title: "Case Studies",
-    path: "#",
-    newTab: false,
-  },
+  // {
+  //   id: 33,
+  //   title: "Case Studies",
+  //   path: "#",
+  //   newTab: false,
+  // },
   {
     id: 3,
-    title: "Support",
-    path: "#",
+    title: "Contact",
+    path: "/contact",
     newTab: false,
   },
   // {

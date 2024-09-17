@@ -162,10 +162,10 @@ const Header = () => {
                   Sign In
                 </Link>
                 <Link
-                  href="#"
+                  href="/contact"
                   className="ease-in-up hidden rounded-sm bg-black px-8 py-3 text-base font-medium text-white hover:border hover:bg-white hover:text-black dark:bg-white dark:text-black dark:hover:border-none dark:hover:bg-black dark:hover:text-white md:block md:px-9 lg:px-6 xl:px-9"
                 >
-                  Contact Us
+                  Get Started
                 </Link>
                 <div>
                   <ThemeToggler />
