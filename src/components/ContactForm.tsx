@@ -11,10 +11,13 @@ const ContactForm = () => {
     jobTitle: "",
     company: "",
     country: "",
+    projectDetails: "",
   });
   const [showModal, setShowModal] = useState(false);
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
+  ) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
@@ -32,6 +35,7 @@ const ContactForm = () => {
             job_title: formData.jobTitle,
             company: formData.company,
             country: formData.country,
+            project_details: formData.projectDetails,
           },
         ]);
 
@@ -47,6 +51,7 @@ const ContactForm = () => {
         jobTitle: "",
         company: "",
         country: "",
+        projectDetails: "",
       });
     } catch (error) {
       console.error("Error:", error);
@@ -174,6 +179,24 @@ const ContactForm = () => {
             className="w-full border-b border-white bg-black px-3 py-2 text-white focus:border-gray-400 focus:outline-none"
             value={formData.country}
             onChange={handleChange}
+          />
+        </div>
+        <div>
+          <label
+            htmlFor="projectDetails"
+            className="mb-2 block text-sm font-medium text-white"
+          >
+            PROJECT DESCRIPTION: *
+          </label>
+          <textarea
+            id="projectDetails"
+            name="projectDetails"
+            rows={4}
+            placeholder="BRIEFLY DESCRIBE YOUR PROJECT OR REQUIREMENTS"
+            className="w-full border-b border-white bg-black px-3 py-2 text-white focus:border-gray-400 focus:outline-none"
+            value={formData.projectDetails}
+            onChange={handleChange}
+            required
           />
         </div>
         <button
