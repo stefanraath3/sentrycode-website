@@ -156,12 +156,6 @@ const Header = () => {
               </div>
               <div className="flex items-center justify-end pr-16 lg:pr-0">
                 <Link
-                  href="#"
-                  className="hidden px-7 py-3 text-base font-medium text-dark hover:opacity-70 dark:text-white md:block"
-                >
-                  Sign In
-                </Link>
-                <Link
                   href="/contact"
                   className="ease-in-up hidden rounded-sm bg-black px-8 py-3 text-base font-medium text-white hover:border hover:bg-white hover:text-black dark:bg-white dark:text-black dark:hover:border-none dark:hover:bg-black dark:hover:text-white md:block md:px-9 lg:px-6 xl:px-9"
                 >
