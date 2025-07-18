@@ -40,8 +40,8 @@ const AboutSectionTwo = () => {
                   Strategic Partnerships
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Collaborating closely with defense agencies and security firms
-                  to navigate and neutralize evolving threats.
+                  Collaborating closely with risk and security firms to navigate
+                  and neutralize evolving threats.
                 </p>
               </div>
               <div className="mb-1">

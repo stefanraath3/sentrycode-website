@@ -9,7 +9,7 @@ const Features = () => {
         <div className="container">
           <SectionTitle
             title="Integrated Systems"
-            paragraph="Explore the specialized tools and systems that give defense and security organizations a decisive edge in intelligence and operational management."
+            paragraph="Explore the specialized tools and systems that give risk management and security organizations a decisive edge in intelligence and operational management."
             center
           />
 

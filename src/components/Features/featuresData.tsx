@@ -74,7 +74,7 @@ const featuresData: Feature[] = [
     ),
     title: "Strategic Resource Network",
     paragraph:
-      "Unify your logistical, financial, and human resource operations within SentryCode's ERP suite. Tailored for defense and security, our platform ensures seamless integration, delivering a strategic advantage for backend support systems.",
+      "Unify your logistical, financial, and human resource operations within SentryCode's ERP suite. Tailored for risk and security, our platform ensures seamless integration, delivering a strategic advantage for backend support systems.",
   },
   {
     id: 1,
@@ -98,9 +98,9 @@ const featuresData: Feature[] = [
         />
       </svg>
     ),
-    title: "Global Defense Connectivity",
+    title: "Global Security Connectivity",
     paragraph:
-      "Connect and coordinate defense efforts globally, with secure and reliable communication channels built into our platform.",
+      "Connect and coordinate security efforts globally, with secure and reliable communication channels built into our platform.",
   },
   {
     id: 1,

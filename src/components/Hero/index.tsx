@@ -12,10 +12,10 @@ const Hero = () => {
             <div className="w-full px-4">
               <div className="mx-auto max-w-[800px] text-center">
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                  Empowering Global Defense and Strategic Security
+                  Empowering Global Risk and Strategic Security
                 </h1>
                 <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
-                  SentryCode builds software systems that empower defense and
+                  SentryCode builds software systems that empower risk and
                   security organizations to unify data insights, streamline
                   operations, and make complex decisions quickly, keeping them
                   ahead in a rapidly evolving global landscape.

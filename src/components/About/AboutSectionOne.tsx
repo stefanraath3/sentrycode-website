@@ -10,7 +10,7 @@ const AboutSectionOne = () => {
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
                 title="What We Do"
-                paragraph="At the core, SentryCode enhances the capabilities of defense and security agencies. Our software solutions provide a robust platform for intelligence fusion, operational command, and strategic foresight."
+                paragraph="At the core, SentryCode enhances the capabilities of risk and security agencies. Our software solutions provide a robust platform for intelligence fusion, operational command, and strategic foresight."
               />
             </div>
 
